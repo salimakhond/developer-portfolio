@@ -27,7 +27,7 @@
 }
 
 .section {
-    padding: 130px 155px;
+    margin-top: 130px;
     text-align: center;
 }
 
@@ -80,7 +80,6 @@ nav li {
     align-items: center;
     margin-right: 37px;
 }
-
 .banner-sub-title {
     font-weight: 600;
     font-size: 45px;
@@ -101,8 +100,14 @@ nav li {
     font-size: 18px;
     line-height: 30px;
     color: #757575;
+    margin-bottom: 30px;
 }
-
+.btn-primary.transparent {
+    background: transparent;
+    border: 1px solid #FD6E0A;
+    color: #FD6E0A;
+    margin-left: 30px;
+}
 /* main section */
 main {
     max-width: 1140px;
@@ -113,8 +118,12 @@ main {
 .about {
     background: #FFF8F3;
     border-radius: 10px;
-    margin-top: 130px;
+    padding: 130px 155px;
     text-align: center;
+}
+
+.about .section-description {
+    padding: 0px;
 }
 
 .about-info {
@@ -137,9 +146,6 @@ main {
 }
 
 /* what i do style */
-.what-i-do {
-    padding: 130px 0px;
-}
 
 .section-description {
     margin-bottom: 50px;
@@ -165,11 +171,62 @@ main {
     line-height: 27px;
     color: #181818;
     margin-bottom: 20px;
-    margin-bottom: 30px;
+    margin-top: 30px;
 }
 
 .skills-container .skill-description {
     font-size: 16px;
     line-height: 28px;
     color: #757575;
+}
+
+/* resumi style */
+.resume .section-title{
+    margin-bottom: 112px;
+}
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+.resume-content{
+    text-align: left;
+}
+.resume-content .resume-title{
+    font-weight: 700;
+font-size: 30px;
+line-height: 41px;
+color: #474747;
+}
+.resume-content .resume-item {
+    margin: 30px 0px;
+    border-bottom: 1px solid #D1D1D1;
+    padding-bottom: 30px;
+}
+
+.resume-content .resume-item:last-child {
+    border-bottom: none;
+    padding-bottom: 0px;
+    margin: 0px;
+}
+.resume-content .resume-item .resume-item-title{
+    font-weight: 700;
+font-size: 25px;
+line-height: 34px;
+color: #474747;
+margin-bottom: 10px;
+}
+.resume-content .resume-item .resume-item-sub-title{
+    font-weight: 600;
+font-size: 20px;
+line-height: 27px;
+color: #757575;
+margin-bottom: 20px;
+}
+.resume-content .resume-item .resumi-item-description{
+    font-size: 16px;
+line-height: 28px;
+color: #757575;
+}
+.resume-button{
+    margin-top: 50px;
 }
