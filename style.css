@@ -230,3 +230,33 @@ color: #757575;
 .resume-button{
     margin-top: 50px;
 }
+
+/* contact style  */
+.contact{
+    display: flex;
+    gap: 115px;
+    background: #FFF8F3;
+    padding: 130px 155px;
+}
+.contact-content {
+    text-align: left;
+}
+.contact-description{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.socil-icon{
+    padding: 0;
+}
+.icon {
+    display: inline-block;
+}
+
+.contact input[type="text"],input[type="email"],textarea{
+    margin-bottom: 20px;
+    width: 100%;
+    border: 0;
+    padding: 18px 30px;
+    font-size: 16px;
+line-height: 28px;
+}
